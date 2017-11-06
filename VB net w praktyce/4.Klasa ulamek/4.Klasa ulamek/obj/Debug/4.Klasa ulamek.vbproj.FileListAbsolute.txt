@@ -1,0 +1,10 @@
+C:\PM\PM\VB net w praktyce\4.Klasa ulamek\4.Klasa ulamek\bin\Debug\4.Klasa ulamek.exe.config
+C:\PM\PM\VB net w praktyce\4.Klasa ulamek\4.Klasa ulamek\bin\Debug\4.Klasa ulamek.exe
+C:\PM\PM\VB net w praktyce\4.Klasa ulamek\4.Klasa ulamek\bin\Debug\4.Klasa ulamek.pdb
+C:\PM\PM\VB net w praktyce\4.Klasa ulamek\4.Klasa ulamek\bin\Debug\4.Klasa ulamek.xml
+C:\PM\PM\VB net w praktyce\4.Klasa ulamek\4.Klasa ulamek\obj\Debug\_4.Klasa_ulamek.Form1.resources
+C:\PM\PM\VB net w praktyce\4.Klasa ulamek\4.Klasa ulamek\obj\Debug\_4.Klasa_ulamek.Resources.resources
+C:\PM\PM\VB net w praktyce\4.Klasa ulamek\4.Klasa ulamek\obj\Debug\4.Klasa ulamek.vbproj.GenerateResource.Cache
+C:\PM\PM\VB net w praktyce\4.Klasa ulamek\4.Klasa ulamek\obj\Debug\4.Klasa ulamek.exe
+C:\PM\PM\VB net w praktyce\4.Klasa ulamek\4.Klasa ulamek\obj\Debug\4.Klasa ulamek.xml
+C:\PM\PM\VB net w praktyce\4.Klasa ulamek\4.Klasa ulamek\obj\Debug\4.Klasa ulamek.pdb

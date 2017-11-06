@@ -1,0 +1,10 @@
+C:\PM\PM\VB net w praktyce\VB w praktyce 1\VB w praktyce 1\bin\Release\VB w praktyce 1.exe.config
+C:\PM\PM\VB net w praktyce\VB w praktyce 1\VB w praktyce 1\bin\Release\VB w praktyce 1.exe
+C:\PM\PM\VB net w praktyce\VB w praktyce 1\VB w praktyce 1\bin\Release\VB w praktyce 1.pdb
+C:\PM\PM\VB net w praktyce\VB w praktyce 1\VB w praktyce 1\bin\Release\VB w praktyce 1.xml
+C:\PM\PM\VB net w praktyce\VB w praktyce 1\VB w praktyce 1\obj\Release\VB_w_praktyce_1.Form1.resources
+C:\PM\PM\VB net w praktyce\VB w praktyce 1\VB w praktyce 1\obj\Release\VB_w_praktyce_1.Resources.resources
+C:\PM\PM\VB net w praktyce\VB w praktyce 1\VB w praktyce 1\obj\Release\VB w praktyce 1.vbproj.GenerateResource.Cache
+C:\PM\PM\VB net w praktyce\VB w praktyce 1\VB w praktyce 1\obj\Release\VB w praktyce 1.exe
+C:\PM\PM\VB net w praktyce\VB w praktyce 1\VB w praktyce 1\obj\Release\VB w praktyce 1.xml
+C:\PM\PM\VB net w praktyce\VB w praktyce 1\VB w praktyce 1\obj\Release\VB w praktyce 1.pdb

@@ -1,0 +1,10 @@
+C:\PM\PM\VB net w praktyce\5.Definiowanie typow\5.Definiowanie typow\bin\Debug\5.Definiowanie typow.exe.config
+C:\PM\PM\VB net w praktyce\5.Definiowanie typow\5.Definiowanie typow\bin\Debug\5.Definiowanie typow.exe
+C:\PM\PM\VB net w praktyce\5.Definiowanie typow\5.Definiowanie typow\bin\Debug\5.Definiowanie typow.xml
+C:\PM\PM\VB net w praktyce\5.Definiowanie typow\5.Definiowanie typow\obj\Debug\_5.Definiowanie_typow.Form1.resources
+C:\PM\PM\VB net w praktyce\5.Definiowanie typow\5.Definiowanie typow\obj\Debug\_5.Definiowanie_typow.Resources.resources
+C:\PM\PM\VB net w praktyce\5.Definiowanie typow\5.Definiowanie typow\obj\Debug\5.Definiowanie typow.vbproj.GenerateResource.Cache
+C:\PM\PM\VB net w praktyce\5.Definiowanie typow\5.Definiowanie typow\obj\Debug\5.Definiowanie typow.exe
+C:\PM\PM\VB net w praktyce\5.Definiowanie typow\5.Definiowanie typow\obj\Debug\5.Definiowanie typow.xml
+C:\PM\PM\VB net w praktyce\5.Definiowanie typow\5.Definiowanie typow\bin\Debug\5.Definiowanie typow.pdb
+C:\PM\PM\VB net w praktyce\5.Definiowanie typow\5.Definiowanie typow\obj\Debug\5.Definiowanie typow.pdb

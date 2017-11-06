@@ -1,0 +1,22 @@
+Z:\6.Tymczasowe testy\VB w praktyce 1\VB w praktyce 1\bin\Debug\VB w praktyce 1.exe.config
+Z:\6.Tymczasowe testy\VB w praktyce 1\VB w praktyce 1\bin\Debug\VB w praktyce 1.exe
+Z:\6.Tymczasowe testy\VB w praktyce 1\VB w praktyce 1\bin\Debug\VB w praktyce 1.pdb
+Z:\6.Tymczasowe testy\VB w praktyce 1\VB w praktyce 1\bin\Debug\VB w praktyce 1.xml
+Z:\6.Tymczasowe testy\VB w praktyce 1\VB w praktyce 1\obj\Debug\VB_w_praktyce_1.Form1.resources
+Z:\6.Tymczasowe testy\VB w praktyce 1\VB w praktyce 1\obj\Debug\VB_w_praktyce_1.Resources.resources
+Z:\6.Tymczasowe testy\VB w praktyce 1\VB w praktyce 1\obj\Debug\VB w praktyce 1.vbproj.GenerateResource.Cache
+Z:\6.Tymczasowe testy\VB w praktyce 1\VB w praktyce 1\obj\Debug\VB w praktyce 1.exe
+Z:\6.Tymczasowe testy\VB w praktyce 1\VB w praktyce 1\obj\Debug\VB w praktyce 1.xml
+Z:\6.Tymczasowe testy\VB w praktyce 1\VB w praktyce 1\obj\Debug\VB w praktyce 1.pdb
+Z:\6.Tymczasowe testy\VB w praktyce 1\VB w praktyce 1\obj\Debug\VB w praktyce 1.vbprojResolveAssemblyReference.cache
+C:\PM\PM\VB net w praktyce\VB w praktyce 1\VB w praktyce 1\bin\Debug\VB w praktyce 1.exe.config
+C:\PM\PM\VB net w praktyce\VB w praktyce 1\VB w praktyce 1\obj\Debug\VB w praktyce 1.exe
+C:\PM\PM\VB net w praktyce\VB w praktyce 1\VB w praktyce 1\obj\Debug\VB w praktyce 1.xml
+C:\PM\PM\VB net w praktyce\VB w praktyce 1\VB w praktyce 1\obj\Debug\VB w praktyce 1.pdb
+C:\PM\PM\VB net w praktyce\VB w praktyce 1\VB w praktyce 1\bin\Debug\VB w praktyce 1.exe
+C:\PM\PM\VB net w praktyce\VB w praktyce 1\VB w praktyce 1\bin\Debug\VB w praktyce 1.pdb
+C:\PM\PM\VB net w praktyce\VB w praktyce 1\VB w praktyce 1\bin\Debug\VB w praktyce 1.xml
+C:\PM\PM\VB net w praktyce\VB w praktyce 1\VB w praktyce 1\obj\Debug\VB w praktyce 1.vbprojResolveAssemblyReference.cache
+C:\PM\PM\VB net w praktyce\VB w praktyce 1\VB w praktyce 1\obj\Debug\VB_w_praktyce_1.Form1.resources
+C:\PM\PM\VB net w praktyce\VB w praktyce 1\VB w praktyce 1\obj\Debug\VB_w_praktyce_1.Resources.resources
+C:\PM\PM\VB net w praktyce\VB w praktyce 1\VB w praktyce 1\obj\Debug\VB w praktyce 1.vbproj.GenerateResource.Cache
