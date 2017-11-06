@@ -1,0 +1,10 @@
+C:\PM\PM\Obsługa klawiatury\Obsługa klawiatury\bin\Debug\Obsługa klawiatury.exe.config
+C:\PM\PM\Obsługa klawiatury\Obsługa klawiatury\bin\Debug\Obsługa klawiatury.exe
+C:\PM\PM\Obsługa klawiatury\Obsługa klawiatury\bin\Debug\Obsługa klawiatury.pdb
+C:\PM\PM\Obsługa klawiatury\Obsługa klawiatury\bin\Debug\Obsługa klawiatury.xml
+C:\PM\PM\Obsługa klawiatury\Obsługa klawiatury\obj\Debug\Obsługa_klawiatury.FormularzKlawiatury.resources
+C:\PM\PM\Obsługa klawiatury\Obsługa klawiatury\obj\Debug\Obsługa_klawiatury.Resources.resources
+C:\PM\PM\Obsługa klawiatury\Obsługa klawiatury\obj\Debug\Obsługa klawiatury.vbproj.GenerateResource.Cache
+C:\PM\PM\Obsługa klawiatury\Obsługa klawiatury\obj\Debug\Obsługa klawiatury.exe
+C:\PM\PM\Obsługa klawiatury\Obsługa klawiatury\obj\Debug\Obsługa klawiatury.xml
+C:\PM\PM\Obsługa klawiatury\Obsługa klawiatury\obj\Debug\Obsługa klawiatury.pdb

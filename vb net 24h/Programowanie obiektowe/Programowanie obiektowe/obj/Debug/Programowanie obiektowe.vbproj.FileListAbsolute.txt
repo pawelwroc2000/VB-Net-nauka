@@ -1,0 +1,14 @@
+C:\PM\PM\Programowanie obiektowe\Programowanie obiektowe\bin\Debug\Programowanie obiektowe.exe.config
+C:\PM\PM\Programowanie obiektowe\Programowanie obiektowe\bin\Debug\Programowanie obiektowe.exe
+C:\PM\PM\Programowanie obiektowe\Programowanie obiektowe\bin\Debug\Programowanie obiektowe.xml
+C:\PM\PM\Programowanie obiektowe\Programowanie obiektowe\obj\Debug\Programowanie_obiektowe.FormularzObiektowy.resources
+C:\PM\PM\Programowanie obiektowe\Programowanie obiektowe\obj\Debug\Programowanie_obiektowe.Resources.resources
+C:\PM\PM\Programowanie obiektowe\Programowanie obiektowe\obj\Debug\Programowanie obiektowe.vbproj.GenerateResource.Cache
+C:\PM\PM\Programowanie obiektowe\Programowanie obiektowe\obj\Debug\Programowanie obiektowe.exe
+C:\PM\PM\Programowanie obiektowe\Programowanie obiektowe\obj\Debug\Programowanie obiektowe.xml
+C:\PM\PM\Programowanie obiektowe\Programowanie obiektowe\obj\Debug\Programowanie obiektowe.pdb
+C:\PM\PM\Programowanie obiektowe\Programowanie obiektowe\bin\Debug\Programowanie obiektowe.pdb
+C:\PM\PM\Programowanie obiektowe\Programowanie obiektowe\bin\Debug\Programowanie obiektowe.exe.manifest
+C:\PM\PM\Programowanie obiektowe\Programowanie obiektowe\bin\Debug\Programowanie obiektowe.application
+C:\PM\PM\Programowanie obiektowe\Programowanie obiektowe\obj\Debug\Programowanie obiektowe.exe.manifest
+C:\PM\PM\Programowanie obiektowe\Programowanie obiektowe\obj\Debug\Programowanie obiektowe.application

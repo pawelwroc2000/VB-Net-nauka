@@ -1,0 +1,10 @@
+C:\PM\FormularzDiagnostyczny\FormularzDiagnostyczny\bin\Debug\FormularzDiagnostyczny.exe.config
+C:\PM\FormularzDiagnostyczny\FormularzDiagnostyczny\obj\Debug\FormularzDiagnostyczny.FormularzDiagnostyczny.resources
+C:\PM\FormularzDiagnostyczny\FormularzDiagnostyczny\obj\Debug\FormularzDiagnostyczny.Resources.resources
+C:\PM\FormularzDiagnostyczny\FormularzDiagnostyczny\obj\Debug\FormularzDiagnostyczny.vbproj.GenerateResource.Cache
+C:\PM\FormularzDiagnostyczny\FormularzDiagnostyczny\bin\Debug\FormularzDiagnostyczny.exe
+C:\PM\FormularzDiagnostyczny\FormularzDiagnostyczny\bin\Debug\FormularzDiagnostyczny.pdb
+C:\PM\FormularzDiagnostyczny\FormularzDiagnostyczny\bin\Debug\FormularzDiagnostyczny.xml
+C:\PM\FormularzDiagnostyczny\FormularzDiagnostyczny\obj\Debug\FormularzDiagnostyczny.exe
+C:\PM\FormularzDiagnostyczny\FormularzDiagnostyczny\obj\Debug\FormularzDiagnostyczny.xml
+C:\PM\FormularzDiagnostyczny\FormularzDiagnostyczny\obj\Debug\FormularzDiagnostyczny.pdb

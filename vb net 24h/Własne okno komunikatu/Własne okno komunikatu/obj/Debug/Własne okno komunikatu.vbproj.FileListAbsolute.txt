@@ -1,0 +1,11 @@
+C:\PM\PM\Własne okno komunikatu\Własne okno komunikatu\bin\Debug\Własne okno komunikatu.exe.config
+C:\PM\PM\Własne okno komunikatu\Własne okno komunikatu\bin\Debug\Własne okno komunikatu.exe
+C:\PM\PM\Własne okno komunikatu\Własne okno komunikatu\bin\Debug\Własne okno komunikatu.pdb
+C:\PM\PM\Własne okno komunikatu\Własne okno komunikatu\bin\Debug\Własne okno komunikatu.xml
+C:\PM\PM\Własne okno komunikatu\Własne okno komunikatu\obj\Debug\Własne_okno_komunikatu.FromularzGłówny.resources
+C:\PM\PM\Własne okno komunikatu\Własne okno komunikatu\obj\Debug\Własne_okno_komunikatu.Resources.resources
+C:\PM\PM\Własne okno komunikatu\Własne okno komunikatu\obj\Debug\Własne_okno_komunikatu.WłasneOknoKomunikatu.resources
+C:\PM\PM\Własne okno komunikatu\Własne okno komunikatu\obj\Debug\Własne okno komunikatu.vbproj.GenerateResource.Cache
+C:\PM\PM\Własne okno komunikatu\Własne okno komunikatu\obj\Debug\Własne okno komunikatu.exe
+C:\PM\PM\Własne okno komunikatu\Własne okno komunikatu\obj\Debug\Własne okno komunikatu.xml
+C:\PM\PM\Własne okno komunikatu\Własne okno komunikatu\obj\Debug\Własne okno komunikatu.pdb

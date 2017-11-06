@@ -1,0 +1,10 @@
+C:\PM\PM\Trwała grafika\Trwała grafika\bin\Debug\Trwała grafika.exe.config
+C:\PM\PM\Trwała grafika\Trwała grafika\bin\Debug\Trwała grafika.exe
+C:\PM\PM\Trwała grafika\Trwała grafika\bin\Debug\Trwała grafika.pdb
+C:\PM\PM\Trwała grafika\Trwała grafika\bin\Debug\Trwała grafika.xml
+C:\PM\PM\Trwała grafika\Trwała grafika\obj\Debug\Trwała_grafika.FormularzGłówny.resources
+C:\PM\PM\Trwała grafika\Trwała grafika\obj\Debug\Trwała_grafika.Resources.resources
+C:\PM\PM\Trwała grafika\Trwała grafika\obj\Debug\Trwała grafika.vbproj.GenerateResource.Cache
+C:\PM\PM\Trwała grafika\Trwała grafika\obj\Debug\Trwała grafika.exe
+C:\PM\PM\Trwała grafika\Trwała grafika\obj\Debug\Trwała grafika.xml
+C:\PM\PM\Trwała grafika\Trwała grafika\obj\Debug\Trwała grafika.pdb

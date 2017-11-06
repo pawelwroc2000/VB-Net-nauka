@@ -1,0 +1,10 @@
+C:\PM\PM\Rysowanie\Rysowanie\bin\Debug\Rysowanie.exe.config
+C:\PM\PM\Rysowanie\Rysowanie\bin\Debug\Rysowanie.exe
+C:\PM\PM\Rysowanie\Rysowanie\bin\Debug\Rysowanie.pdb
+C:\PM\PM\Rysowanie\Rysowanie\bin\Debug\Rysowanie.xml
+C:\PM\PM\Rysowanie\Rysowanie\obj\Debug\Rysowanie.FormularzGłówny.resources
+C:\PM\PM\Rysowanie\Rysowanie\obj\Debug\Rysowanie.Resources.resources
+C:\PM\PM\Rysowanie\Rysowanie\obj\Debug\Rysowanie.vbproj.GenerateResource.Cache
+C:\PM\PM\Rysowanie\Rysowanie\obj\Debug\Rysowanie.exe
+C:\PM\PM\Rysowanie\Rysowanie\obj\Debug\Rysowanie.xml
+C:\PM\PM\Rysowanie\Rysowanie\obj\Debug\Rysowanie.pdb

@@ -1,0 +1,13 @@
+C:\PM\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.exe.config
+C:\PM\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.exe
+C:\PM\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.pdb
+C:\PM\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.xml
+C:\PM\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Resources.resources
+C:\PM\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.vbproj.GenerateResource.Cache
+C:\PM\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.exe
+C:\PM\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.xml
+C:\PM\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.pdb
+C:\PM\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.OpcjeForm.resources
+C:\PM\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.RodzicMDI.resources
+C:\PM\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Potomek1.resources
+C:\PM\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Potomek2.resources
