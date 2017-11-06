@@ -11,6 +11,8 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "1.Preprocesor", "..\1.Prepr
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Dynamiczne ladowanie DLL", "Dynamiczne ladowanie DLL\Dynamiczne ladowanie DLL.vbproj", "{A5F4B61C-4453-4C9E-A803-CB2BBBA6B8D2}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Hello", "Hello\Hello.vbproj", "{B3F61B3F-72A3-40D7-A223-2554CBF8898A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{A5F4B61C-4453-4C9E-A803-CB2BBBA6B8D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5F4B61C-4453-4C9E-A803-CB2BBBA6B8D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5F4B61C-4453-4C9E-A803-CB2BBBA6B8D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3F61B3F-72A3-40D7-A223-2554CBF8898A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3F61B3F-72A3-40D7-A223-2554CBF8898A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3F61B3F-72A3-40D7-A223-2554CBF8898A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3F61B3F-72A3-40D7-A223-2554CBF8898A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
