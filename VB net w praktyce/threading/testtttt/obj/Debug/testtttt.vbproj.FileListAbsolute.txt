@@ -1,0 +1,10 @@
+C:\PM\PM\testtttt\testtttt\bin\Debug\testtttt.exe.config
+C:\PM\PM\testtttt\testtttt\bin\Debug\testtttt.exe
+C:\PM\PM\testtttt\testtttt\bin\Debug\testtttt.pdb
+C:\PM\PM\testtttt\testtttt\bin\Debug\testtttt.xml
+C:\PM\PM\testtttt\testtttt\obj\Debug\testtttt.Form1.resources
+C:\PM\PM\testtttt\testtttt\obj\Debug\testtttt.Resources.resources
+C:\PM\PM\testtttt\testtttt\obj\Debug\testtttt.vbproj.GenerateResource.Cache
+C:\PM\PM\testtttt\testtttt\obj\Debug\testtttt.exe
+C:\PM\PM\testtttt\testtttt\obj\Debug\testtttt.xml
+C:\PM\PM\testtttt\testtttt\obj\Debug\testtttt.pdb
