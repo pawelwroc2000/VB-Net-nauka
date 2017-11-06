@@ -8,3 +8,13 @@ C:\PM\PM\testtttt\testtttt\obj\Debug\testtttt.vbproj.GenerateResource.Cache
 C:\PM\PM\testtttt\testtttt\obj\Debug\testtttt.exe
 C:\PM\PM\testtttt\testtttt\obj\Debug\testtttt.xml
 C:\PM\PM\testtttt\testtttt\obj\Debug\testtttt.pdb
+C:\PM\PM\VB Net nauka\VB-Net-nauka\VB net w praktyce\threading\testtttt\bin\Debug\testtttt.exe.config
+C:\PM\PM\VB Net nauka\VB-Net-nauka\VB net w praktyce\threading\testtttt\obj\Debug\testtttt.exe
+C:\PM\PM\VB Net nauka\VB-Net-nauka\VB net w praktyce\threading\testtttt\obj\Debug\testtttt.xml
+C:\PM\PM\VB Net nauka\VB-Net-nauka\VB net w praktyce\threading\testtttt\obj\Debug\testtttt.pdb
+C:\PM\PM\VB Net nauka\VB-Net-nauka\VB net w praktyce\threading\testtttt\bin\Debug\testtttt.exe
+C:\PM\PM\VB Net nauka\VB-Net-nauka\VB net w praktyce\threading\testtttt\bin\Debug\testtttt.pdb
+C:\PM\PM\VB Net nauka\VB-Net-nauka\VB net w praktyce\threading\testtttt\bin\Debug\testtttt.xml
+C:\PM\PM\VB Net nauka\VB-Net-nauka\VB net w praktyce\threading\testtttt\obj\Debug\testtttt.Form1.resources
+C:\PM\PM\VB Net nauka\VB-Net-nauka\VB net w praktyce\threading\testtttt\obj\Debug\testtttt.Resources.resources
+C:\PM\PM\VB Net nauka\VB-Net-nauka\VB net w praktyce\threading\testtttt\obj\Debug\testtttt.vbproj.GenerateResource.Cache

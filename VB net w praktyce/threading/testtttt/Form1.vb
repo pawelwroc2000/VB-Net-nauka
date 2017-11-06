@@ -10,9 +10,7 @@ Public Class Form1
     End Sub
 
     Private Sub tr1()
-
         Do
-
             i = i + 1
 
             If Me.TextBox1.InvokeRequired Then
@@ -20,12 +18,9 @@ Public Class Form1
             Else
                 Me.TextBox1.Text = i
             End If
-
-            Thread.Sleep(1000)
+            Thread.Sleep(4000)
         Loop
-
     End Sub
-
 
     Private Sub tr2()
         Do
@@ -34,7 +29,6 @@ Public Class Form1
             Else
                 Me.TextBox1.Text = "99999999"
             End If
-
             Thread.Sleep(2000)
         Loop
     End Sub
@@ -46,4 +40,14 @@ Public Class Form1
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         Me.TextBox1.Text = 999
     End Sub
+
+
+    Private Sub ResetTextBoxText()
+        If Me.TextBox1.InvokeRequired Then
+
+        Else
+            Me.TextBox1.ResetText()
+        End If
+    End Sub
+
 End Class
