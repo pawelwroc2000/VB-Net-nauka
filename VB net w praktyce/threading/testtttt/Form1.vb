@@ -71,4 +71,17 @@ Public Class Form1
     End Sub
 
 
+    Private Async Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        Dim akcja As Func(Of Object, Long) = Function(argument As Object)
+                                                 MessageBox.Show("Zatrzymujemy działanie akcji - " &
+                                                 argument.ToString())
+                                                 Return DateTime.Now.Ticks
+                                             End Function
+        'akcja wykonywana asynchronicznie - async/await
+        Dim zadanie3 As Task(Of Long) = New Task(Of Long)(akcja, "Async/Await")
+        zadanie3.Start()
+        MessageBox.Show("Akcja została uruchomiona")
+        Dim wynik3 As Long = Await zadanie3
+        MessageBox.Show("Await: " & wynik3.ToString())
+    End Sub
 End Class
