@@ -8,17 +8,17 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("Delegates")> 
+<Assembly: AssemblyTitle("PortCommThreadTest")> 
 <Assembly: AssemblyDescription("")> 
 <Assembly: AssemblyCompany("Enfo Oyj")> 
-<Assembly: AssemblyProduct("Delegates")> 
+<Assembly: AssemblyProduct("PortCommThreadTest")> 
 <Assembly: AssemblyCopyright("Copyright © Enfo Oyj 2017")> 
 <Assembly: AssemblyTrademark("")> 
 
 <Assembly: ComVisible(False)>
 
 'The following GUID is for the ID of the typelib if this project is exposed to COM
-<Assembly: Guid("0b35d657-4884-4d95-873a-8e5abaeca8a9")> 
+<Assembly: Guid("b885c9b9-7696-40d5-bc7f-be89446449ef")> 
 
 ' Version information for an assembly consists of the following four values:
 '

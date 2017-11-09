@@ -84,4 +84,8 @@ Public Class Form1
         Dim wynik3 As Long = Await zadanie3
         MessageBox.Show("Await: " & wynik3.ToString())
     End Sub
+
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
 End Class
