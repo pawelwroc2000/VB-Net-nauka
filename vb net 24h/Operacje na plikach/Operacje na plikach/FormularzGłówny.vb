@@ -28,8 +28,12 @@
         ' czytaj do konca kazdej linii z osobna
         Dim strPojedynczaLinia As String
         strPojedynczaLinia = objPlik.ReadLine()
+
+
+
         Do Until strPojedynczaLinia Is Nothing
             MessageBox.Show(strPojedynczaLinia)
+
             strPojedynczaLinia = objPlik.ReadLine()
         Loop
 
@@ -39,6 +43,29 @@
     End Sub
 
     Private Sub FormularzGłówny_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+        Dim Plik As New System.IO.StreamReader("d:\w14.txt")
+        Dim strPojedynczaLinia As String
+        Dim wartosci() As String
+        Dim pix_x As UInteger
+        Dim val As Byte
+
+        strPojedynczaLinia = Plik.ReadLine()
+
+        Do Until strPojedynczaLinia Is Nothing
+            wartosci = strPojedynczaLinia.Split(";")
+
+                Byte.TryParse(wartosci(0), pix_x)
+            UInteger.TryParse(wartosci(1), val)
+
+
+            MessageBox.Show(pix_x.ToString)
+            MessageBox.Show(val.ToString)
+
+            strPojedynczaLinia = Plik.ReadLine()
+        Loop
+
+        Plik.Close()
 
     End Sub
 

@@ -8,3 +8,13 @@ C:\PM\PM\Operacje na plikach\Operacje na plikach\obj\Debug\Operacje na plikach.v
 C:\PM\PM\Operacje na plikach\Operacje na plikach\obj\Debug\Operacje na plikach.exe
 C:\PM\PM\Operacje na plikach\Operacje na plikach\obj\Debug\Operacje na plikach.xml
 C:\PM\PM\Operacje na plikach\Operacje na plikach\obj\Debug\Operacje na plikach.pdb
+C:\PM\PM\VB Net nauka\VB-Net-nauka\vb net 24h\Operacje na plikach\Operacje na plikach\bin\Debug\Operacje na plikach.exe.config
+C:\PM\PM\VB Net nauka\VB-Net-nauka\vb net 24h\Operacje na plikach\Operacje na plikach\obj\Debug\Operacje na plikach.exe
+C:\PM\PM\VB Net nauka\VB-Net-nauka\vb net 24h\Operacje na plikach\Operacje na plikach\obj\Debug\Operacje na plikach.xml
+C:\PM\PM\VB Net nauka\VB-Net-nauka\vb net 24h\Operacje na plikach\Operacje na plikach\obj\Debug\Operacje na plikach.pdb
+C:\PM\PM\VB Net nauka\VB-Net-nauka\vb net 24h\Operacje na plikach\Operacje na plikach\bin\Debug\Operacje na plikach.exe
+C:\PM\PM\VB Net nauka\VB-Net-nauka\vb net 24h\Operacje na plikach\Operacje na plikach\bin\Debug\Operacje na plikach.pdb
+C:\PM\PM\VB Net nauka\VB-Net-nauka\vb net 24h\Operacje na plikach\Operacje na plikach\bin\Debug\Operacje na plikach.xml
+C:\PM\PM\VB Net nauka\VB-Net-nauka\vb net 24h\Operacje na plikach\Operacje na plikach\obj\Debug\Operacje_na_plikach.FormularzGłówny.resources
+C:\PM\PM\VB Net nauka\VB-Net-nauka\vb net 24h\Operacje na plikach\Operacje na plikach\obj\Debug\Operacje_na_plikach.Resources.resources
+C:\PM\PM\VB Net nauka\VB-Net-nauka\vb net 24h\Operacje na plikach\Operacje na plikach\obj\Debug\Operacje na plikach.vbproj.GenerateResource.Cache
