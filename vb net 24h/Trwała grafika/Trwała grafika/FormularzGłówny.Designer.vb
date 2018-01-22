@@ -22,6 +22,7 @@ Partial Class FormularzGłówny
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FormularzGłówny))
         Me.txtRysowanie = New System.Windows.Forms.TextBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.drawButton = New System.Windows.Forms.Button()
@@ -40,9 +41,12 @@ Partial Class FormularzGłówny
         '
         'PictureBox1
         '
-        Me.PictureBox1.Location = New System.Drawing.Point(12, 269)
+        Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox1.BackgroundImage = CType(resources.GetObject("PictureBox1.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.PictureBox1.Location = New System.Drawing.Point(12, 232)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(282, 300)
+        Me.PictureBox1.Size = New System.Drawing.Size(282, 276)
         Me.PictureBox1.TabIndex = 3
         Me.PictureBox1.TabStop = False
         '
@@ -86,7 +90,8 @@ Partial Class FormularzGłówny
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(316, 581)
+        Me.BackColor = System.Drawing.Color.Silver
+        Me.ClientSize = New System.Drawing.Size(1444, 1062)
         Me.Controls.Add(Me.SaveToFileButton)
         Me.Controls.Add(Me.LoadBMPtoPictureBox1Button)
         Me.Controls.Add(Me.draw2Button)
@@ -95,16 +100,17 @@ Partial Class FormularzGłówny
         Me.Controls.Add(Me.txtRysowanie)
         Me.Name = "FormularzGłówny"
         Me.Text = "Przykładowa grafika"
+        Me.TransparencyKey = System.Drawing.Color.Yellow
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
     Friend WithEvents txtRysowanie As System.Windows.Forms.TextBox
-    Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
     Friend WithEvents drawButton As System.Windows.Forms.Button
     Friend WithEvents draw2Button As System.Windows.Forms.Button
     Friend WithEvents LoadBMPtoPictureBox1Button As System.Windows.Forms.Button
     Friend WithEvents SaveToFileButton As System.Windows.Forms.Button
+    Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
 
 End Class
