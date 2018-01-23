@@ -61,6 +61,27 @@ Public Class FormularzGłówny
         Me.PictureBox1.Image.Save("picturebox.png", Imaging.ImageFormat.Png)
     End Sub
 
+
+
+    '    I've actually figured it out :)
+
+    'i'm using this code:
+
+    '    Dim myGraphic As Graphics = Nothing
+    '    Dim imgBack As Image, imgFore As Image, newImg As Image
+    '        imgBack = pbox.BackgroundImage
+    '        imgFore = pbox.Image
+
+    '        newImg = pbox.BackgroundImage
+
+    '        myGraphic = Graphics.FromImage(newImg)
+    '        myGraphic.DrawImageUnscaled(imgBack , 0, 0)
+    '        myGraphic.DrawImageUnscaled(imgFore , 0, 0)
+    '        myGraphic.Save()
+    '        newImg.Save("c:\abc.bmp")
+
+
+
     ' http://www.vb-helper.com/howto_net_gradient_alpha_double.html
     'Private Sub Form1_Load(ByVal sender As System.Object, ByVal _
     '    e As System.EventArgs) Handles MyBase.Load
