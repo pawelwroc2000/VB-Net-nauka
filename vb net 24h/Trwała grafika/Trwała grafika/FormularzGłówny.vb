@@ -27,29 +27,35 @@ Public Class FormularzGłówny
     Dim BMP As New Bitmap(600, 600, Imaging.PixelFormat.Format32bppArgb)
     Dim BMPS As New Bitmap(600, 600, Imaging.PixelFormat.Format32bppArgb)
 
-    Dim BMPJ As New Bitmap("jelly.jpg")
+    '  Dim BMPJ As New Bitmap("jelly.jpg")
 
-    Dim BMPT As New Bitmap(100, 100, Imaging.PixelFormat.Format32bppArgb)
+    Dim BMPT As New Bitmap(300, 300, Imaging.PixelFormat.Format32bppArgb)
 
     Private Sub FormularzGłówny_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
-        PictureBox2.Parent = PictureBox1
+        ' PictureBox2.Parent = PictureBox1
         PictureBox2.BackColor = Color.Transparent
 
-        Label1.Parent = PictureBox2
-        Label1.BackColor = Color.Transparent
+        'Label1.Parent = PictureBox2
+        'Label1.BackColor = Color.Transparent
 
 
-        Dim colors As Color = Drawing.Color.Red
-        colors = Color.FromArgb(255, colors.R, colors.G, colors.B)
+        Me.Show()
 
-        'BMPT.MakeTransparent()
-        'BMPT.SetPixel(1, 1, colors)
-        'BMPT.SetPixel(2, 2, colors)
-        'BMPT.SetPixel(3, 3, colors)
-        'BMPT.SetPixel(4, 4, colors)
-        'BMPT.SetPixel(5, 5, colors)
-        'BMPT.SetPixel(6, 6, colors)
+        BMPT.MakeTransparent()
+        Dim colors As Color = Drawing.Color.DeepSkyBlue
+
+        Dim i, j As UInteger
+
+        For i = 1 To 255
+            colors = Color.FromArgb(i, colors.R, colors.G, colors.B)
+            For j = 0 To 100 Step 5
+                BMPT.SetPixel(j, i, colors)
+                BMPT.SetPixel(j + 1, i, colors)
+
+            Next
+        Next i
+        PictureBox2.Image = BMPT
         'BMPT.Save("bitmapaaa.png", Imaging.ImageFormat.Png)
 
         BMPS.MakeTransparent(Color.Gray)
@@ -58,14 +64,14 @@ Public Class FormularzGłówny
             '  colors = Color.FromArgb(i / 2, colors.R, colors.G, colors.B)
             For j = 0 To 599
 
-                Dim clr As Color = BMPJ.GetPixel(i, j)
+                Dim clr As Color ' = BMPJ.GetPixel(i, j)
                 clr = Color.FromArgb(200, clr.R, clr.G, clr.B)
                 BMP.SetPixel(i, j, clr)
 
                 ' BMP.SetPixel(i, j, colors)
             Next
         Next
-        PictureBox1.Image = BMP
+        ' PictureBox1.Image = BMP
 
 
         For i = 0 To 299
@@ -74,9 +80,7 @@ Public Class FormularzGłówny
                 BMPS.SetPixel(i, j, colors)
             Next
         Next
-
-
-        PictureBox2.Image = BMPS
+        'PictureBox2.Image = BMPS
 
 
 
@@ -85,24 +89,48 @@ Public Class FormularzGłówny
     ' na ruch myszka nad picturebox ustaw pixele w BMP i przypisz BMP do PictureBox1
     Private Sub PictureBox1_MouseMove(sender As Object, e As MouseEventArgs) Handles PictureBox1.MouseMove
 
-        Try
-            Dim alpha As Double = (MousePosition.X - Me.Location.X - PictureBox1.Location.X - 18) / 285
-            Dim color As Color = Drawing.Color.Black
+        'Try
+        '    Dim alpha As Double = (MousePosition.X - Me.Location.X - PictureBox1.Location.X - 18) / 285
+        '    Dim color As Color = Drawing.Color.Black
 
-            'c = Color.FromArgb(alpha * 255, c.R, c.G, c.B)
-            color = color.FromArgb(alpha * 255, color.R, color.G, color.B)
+        '    'c = Color.FromArgb(alpha * 255, c.R, c.G, c.B)
+        '    color = color.FromArgb(alpha * 255, color.R, color.G, color.B)
 
-            BMPS.SetPixel(MousePosition.X - Me.Location.X - PictureBox1.Location.X - 18, MousePosition.Y - Me.Location.Y - PictureBox1.Location.Y - 30, color)
-        Catch ex As Exception
-        End Try
-        PictureBox2.Image = BMPS
+        '    BMPS.SetPixel(MousePosition.X - Me.Location.X - PictureBox1.Location.X - 18, MousePosition.Y - Me.Location.Y - PictureBox1.Location.Y - 30, color)
+        'Catch ex As Exception
+        'End Try
+        'PictureBox2.Image = BMPS
     End Sub
 
     Private Sub SaveToFileButton_Click(sender As Object, e As EventArgs) Handles SaveToFileButton.Click
         ' BMP.Save("bitmapa.png", Imaging.ImageFormat.Png)
-        Me.PictureBox2.Image.Save("picturebox.png", Imaging.ImageFormat.Png)
+        '  Me.PictureBox2.Image.Save("picturebox.png", Imaging.ImageFormat.Png)
+
+
+        'Dim graph As Graphics = Nothing
+        'Dim frmleft As System.Drawing.Point = Me.Bounds.Location
+        'Dim img As New Bitmap(Me.Bounds.Width + 0, Me.Bounds.Height + 0)
+        'graph = Graphics.FromImage(img)
+        'Dim screenx As Integer = frmleft.X
+        'Dim screeny As Integer = frmleft.Y
+        'graph.CopyFromScreen(screenx - 0, screeny - 0, 0, 0, img.Size)
+        'img.Save("filename.png", System.Drawing.Imaging.ImageFormat.Png)
+        SaveForm()
     End Sub
 
+    Private Sub SaveForm()
+        Static Dim i As Byte
+
+        Dim graph As Graphics = Nothing
+        Dim frmleft As System.Drawing.Point = Me.Bounds.Location
+        Dim img As New Bitmap(Me.Bounds.Width + 0, Me.Bounds.Height + 0)
+        graph = Graphics.FromImage(img)
+        Dim screenx As Integer = frmleft.X
+        Dim screeny As Integer = frmleft.Y
+        graph.CopyFromScreen(screenx - 0, screeny - 0, 0, 0, img.Size)
+        img.Save("form" & i.ToString & ".png", System.Drawing.Imaging.ImageFormat.Png)
+        i = i + 1
+    End Sub
 
 
     '    I've actually figured it out :)
