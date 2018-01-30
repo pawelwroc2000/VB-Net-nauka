@@ -27,6 +27,9 @@ Public Class FormularzGłówny
     Dim main_layer_bmp As New Bitmap(100, 100, Imaging.PixelFormat.Format32bppArgb)
     Dim rain_layer_bmp As New Bitmap(10, 10, Imaging.PixelFormat.Format32bppArgb)
     Dim snow_layer_bmp As New Bitmap(10, 10, Imaging.PixelFormat.Format32bppArgb)
+    Dim map_layer_bmp As New Bitmap("polska.jpg")
+    Dim flake_layer_bmp As New Bitmap(16, 16, Imaging.PixelFormat.Format32bppArgb)
+
 
     Dim BMP As New Bitmap(600, 600, Imaging.PixelFormat.Format32bppArgb)
     Dim BMPS As New Bitmap(600, 600, Imaging.PixelFormat.Format32bppArgb)
@@ -40,9 +43,10 @@ Public Class FormularzGłówny
         Dim y As Byte
         Dim kolor As Color
 
+        flake_layer_bmp = Image.FromFile("snow_flake.png")
 
         ' set rain layer
-        kolor = Color.FromArgb(200, 255, 0, 0)
+        kolor = Color.FromArgb(255, 255, 0, 0)
         For x = 0 To 6
             For y = 0 To 6
                 rain_layer_bmp.SetPixel(x, y, kolor)
@@ -50,17 +54,28 @@ Public Class FormularzGłówny
         Next
 
         ' set snow layer
-        kolor = Color.FromArgb(200, 0, 255, 0)
+        kolor = Color.FromArgb(255, 0, 0, 255)
         For x = 3 To 9
             For y = 3 To 9
                 snow_layer_bmp.SetPixel(x, y, kolor)
             Next
         Next
 
+
+        'add poland map layer
+        For x = 0 To 50
+            For y = 0 To 50
+                main_layer_bmp.SetPixel(x, y, map_layer_bmp.GetPixel(x, y))
+            Next
+        Next
+
         'add rain layers
         For x = 0 To 9
             For y = 0 To 9
-                main_layer_bmp.SetPixel(x, y, rain_layer_bmp.GetPixel(x, y))
+                kolor = rain_layer_bmp.GetPixel(x, y)
+                If kolor.A > 0 Then
+                    main_layer_bmp.SetPixel(x, y, rain_layer_bmp.GetPixel(x, y))
+                End If
             Next
         Next
 
@@ -75,9 +90,20 @@ Public Class FormularzGłówny
         Next
 
 
-        main_PictureBox.Image = main_layer_bmp
+        'add snow layer
+        For x = 0 To 15
+            For y = 0 To 15
+                kolor = flake_layer_bmp.GetPixel(x, y)
+                If kolor.A > 0 Then
+                    main_layer_bmp.SetPixel(x + 10, y + 10, flake_layer_bmp.GetPixel(x, y))
+                End If
+            Next
+        Next
+
+
         rain_PictureBox.Image = rain_layer_bmp
         snow_PictureBox.Image = snow_layer_bmp
+        main_PictureBox.Image = main_layer_bmp
 
         ' PictureBox2.Parent = PictureBox1
         PictureBox2.BackColor = Color.Transparent

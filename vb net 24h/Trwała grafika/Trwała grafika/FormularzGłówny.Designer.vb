@@ -52,7 +52,7 @@ Partial Class FormularzGłówny
         '
         Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.PictureBox1.Location = New System.Drawing.Point(695, 212)
+        Me.PictureBox1.Location = New System.Drawing.Point(1043, 230)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(600, 600)
         Me.PictureBox1.TabIndex = 3
@@ -135,7 +135,6 @@ Partial Class FormularzGłówny
         '
         'main_PictureBox
         '
-        Me.main_PictureBox.BackgroundImage = CType(resources.GetObject("main_PictureBox.BackgroundImage"), System.Drawing.Image)
         Me.main_PictureBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.main_PictureBox.Location = New System.Drawing.Point(1106, 92)
         Me.main_PictureBox.Name = "main_PictureBox"
