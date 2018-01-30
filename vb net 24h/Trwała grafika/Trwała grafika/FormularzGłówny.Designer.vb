@@ -31,8 +31,14 @@ Partial Class FormularzGłówny
         Me.SaveToFileButton = New System.Windows.Forms.Button()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.rain_PictureBox = New System.Windows.Forms.PictureBox()
+        Me.snow_PictureBox = New System.Windows.Forms.PictureBox()
+        Me.main_PictureBox = New System.Windows.Forms.PictureBox()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.rain_PictureBox, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.snow_PictureBox, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.main_PictureBox, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'txtRysowanie
@@ -109,14 +115,45 @@ Partial Class FormularzGłówny
         Me.Label1.TabIndex = 10
         Me.Label1.Text = "Label1"
         '
+        'rain_PictureBox
+        '
+        Me.rain_PictureBox.BackColor = System.Drawing.Color.Transparent
+        Me.rain_PictureBox.Location = New System.Drawing.Point(1106, 40)
+        Me.rain_PictureBox.Name = "rain_PictureBox"
+        Me.rain_PictureBox.Size = New System.Drawing.Size(10, 10)
+        Me.rain_PictureBox.TabIndex = 11
+        Me.rain_PictureBox.TabStop = False
+        '
+        'snow_PictureBox
+        '
+        Me.snow_PictureBox.BackColor = System.Drawing.Color.Transparent
+        Me.snow_PictureBox.Location = New System.Drawing.Point(1106, 57)
+        Me.snow_PictureBox.Name = "snow_PictureBox"
+        Me.snow_PictureBox.Size = New System.Drawing.Size(10, 10)
+        Me.snow_PictureBox.TabIndex = 12
+        Me.snow_PictureBox.TabStop = False
+        '
+        'main_PictureBox
+        '
+        Me.main_PictureBox.BackgroundImage = CType(resources.GetObject("main_PictureBox.BackgroundImage"), System.Drawing.Image)
+        Me.main_PictureBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.main_PictureBox.Location = New System.Drawing.Point(1106, 92)
+        Me.main_PictureBox.Name = "main_PictureBox"
+        Me.main_PictureBox.Size = New System.Drawing.Size(100, 100)
+        Me.main_PictureBox.TabIndex = 13
+        Me.main_PictureBox.TabStop = False
+        '
         'FormularzGłówny
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.DeepSkyBlue
+        Me.BackColor = System.Drawing.Color.White
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.ClientSize = New System.Drawing.Size(1444, 1054)
+        Me.Controls.Add(Me.main_PictureBox)
+        Me.Controls.Add(Me.snow_PictureBox)
+        Me.Controls.Add(Me.rain_PictureBox)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.SaveToFileButton)
@@ -129,6 +166,9 @@ Partial Class FormularzGłówny
         Me.Text = "Przykładowa grafika"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.rain_PictureBox, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.snow_PictureBox, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.main_PictureBox, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -141,5 +181,8 @@ Partial Class FormularzGłówny
     Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
     Friend WithEvents PictureBox2 As System.Windows.Forms.PictureBox
     Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents rain_PictureBox As System.Windows.Forms.PictureBox
+    Friend WithEvents snow_PictureBox As System.Windows.Forms.PictureBox
+    Friend WithEvents main_PictureBox As System.Windows.Forms.PictureBox
 
 End Class
