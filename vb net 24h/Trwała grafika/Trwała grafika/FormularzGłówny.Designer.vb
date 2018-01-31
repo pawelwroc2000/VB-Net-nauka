@@ -22,6 +22,7 @@ Partial Class FormularzGłówny
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FormularzGłówny))
         Me.txtRysowanie = New System.Windows.Forms.TextBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
@@ -34,6 +35,7 @@ Partial Class FormularzGłówny
         Me.rain_PictureBox = New System.Windows.Forms.PictureBox()
         Me.snow_PictureBox = New System.Windows.Forms.PictureBox()
         Me.main_PictureBox = New System.Windows.Forms.PictureBox()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.rain_PictureBox, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -135,21 +137,26 @@ Partial Class FormularzGłówny
         '
         'main_PictureBox
         '
+        Me.main_PictureBox.BackColor = System.Drawing.Color.Transparent
         Me.main_PictureBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.main_PictureBox.Location = New System.Drawing.Point(1106, 92)
+        Me.main_PictureBox.Location = New System.Drawing.Point(521, 155)
         Me.main_PictureBox.Name = "main_PictureBox"
         Me.main_PictureBox.Size = New System.Drawing.Size(100, 100)
         Me.main_PictureBox.TabIndex = 13
         Me.main_PictureBox.TabStop = False
         '
+        'Timer1
+        '
+        Me.Timer1.Interval = 200
+        '
         'FormularzGłówny
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.White
+        Me.BackColor = System.Drawing.Color.DarkGreen
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.ClientSize = New System.Drawing.Size(1444, 1054)
+        Me.ClientSize = New System.Drawing.Size(1505, 1042)
         Me.Controls.Add(Me.main_PictureBox)
         Me.Controls.Add(Me.snow_PictureBox)
         Me.Controls.Add(Me.rain_PictureBox)
@@ -183,5 +190,6 @@ Partial Class FormularzGłówny
     Friend WithEvents rain_PictureBox As System.Windows.Forms.PictureBox
     Friend WithEvents snow_PictureBox As System.Windows.Forms.PictureBox
     Friend WithEvents main_PictureBox As System.Windows.Forms.PictureBox
+    Friend WithEvents Timer1 As System.Windows.Forms.Timer
 
 End Class

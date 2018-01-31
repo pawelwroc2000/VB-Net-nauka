@@ -65,7 +65,7 @@ Public Class FormularzGłówny
         'add poland map layer
         For x = 0 To 50
             For y = 0 To 50
-                main_layer_bmp.SetPixel(x, y, map_layer_bmp.GetPixel(x, y))
+                ' main_layer_bmp.SetPixel(x, y, map_layer_bmp.GetPixel(x, y))
             Next
         Next
 
@@ -95,7 +95,7 @@ Public Class FormularzGłówny
             For y = 0 To 15
                 kolor = flake_layer_bmp.GetPixel(x, y)
                 If kolor.A > 0 Then
-                    main_layer_bmp.SetPixel(x + 10, y + 10, flake_layer_bmp.GetPixel(x, y))
+                    main_layer_bmp.SetPixel(x + 5, y + 5, flake_layer_bmp.GetPixel(x, y))
                 End If
             Next
         Next
@@ -257,6 +257,17 @@ Public Class FormularzGłówny
     'End Sub
 
 
+    Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
+        Static Dim i As Byte
+        If i < 30 Then
+            PictureBox2.Left = PictureBox2.Left + 10
+            PictureBox2.Top = PictureBox2.Top + 10
+            i = i + 1
+            PictureBox2.Refresh()
+            Me.Refresh()
+            SaveForm()
+        End If
+    End Sub
 End Class
 
 
