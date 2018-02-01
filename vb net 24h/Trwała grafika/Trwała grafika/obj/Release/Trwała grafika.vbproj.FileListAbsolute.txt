@@ -8,3 +8,13 @@ C:\PM\PM\Trwała grafika\Trwała grafika\obj\Release\Trwała grafika.vbproj.Gene
 C:\PM\PM\Trwała grafika\Trwała grafika\obj\Release\Trwała grafika.exe
 C:\PM\PM\Trwała grafika\Trwała grafika\obj\Release\Trwała grafika.xml
 C:\PM\PM\Trwała grafika\Trwała grafika\obj\Release\Trwała grafika.pdb
+Z:\3.Research_Development\VB-Net-nauka\vb net 24h\Trwała grafika\Trwała grafika\bin\Release\Trwała grafika.exe.config
+Z:\3.Research_Development\VB-Net-nauka\vb net 24h\Trwała grafika\Trwała grafika\obj\Release\Trwała grafika.exe
+Z:\3.Research_Development\VB-Net-nauka\vb net 24h\Trwała grafika\Trwała grafika\obj\Release\Trwała grafika.xml
+Z:\3.Research_Development\VB-Net-nauka\vb net 24h\Trwała grafika\Trwała grafika\obj\Release\Trwała grafika.pdb
+Z:\3.Research_Development\VB-Net-nauka\vb net 24h\Trwała grafika\Trwała grafika\bin\Release\Trwała grafika.exe
+Z:\3.Research_Development\VB-Net-nauka\vb net 24h\Trwała grafika\Trwała grafika\bin\Release\Trwała grafika.pdb
+Z:\3.Research_Development\VB-Net-nauka\vb net 24h\Trwała grafika\Trwała grafika\bin\Release\Trwała grafika.xml
+Z:\3.Research_Development\VB-Net-nauka\vb net 24h\Trwała grafika\Trwała grafika\obj\Release\Trwała_grafika.FormularzGłówny.resources
+Z:\3.Research_Development\VB-Net-nauka\vb net 24h\Trwała grafika\Trwała grafika\obj\Release\Trwała_grafika.Resources.resources
+Z:\3.Research_Development\VB-Net-nauka\vb net 24h\Trwała grafika\Trwała grafika\obj\Release\Trwała grafika.vbproj.GenerateResource.Cache

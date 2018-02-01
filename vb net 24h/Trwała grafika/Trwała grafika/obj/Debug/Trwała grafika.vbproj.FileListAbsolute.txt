@@ -18,13 +18,13 @@ C:\PM\PM\VB Net nauka\VB-Net-nauka\vb net 24h\Trwała grafika\Trwała grafika\bi
 C:\PM\PM\VB Net nauka\VB-Net-nauka\vb net 24h\Trwała grafika\Trwała grafika\obj\Debug\Trwała_grafika.FormularzGłówny.resources
 C:\PM\PM\VB Net nauka\VB-Net-nauka\vb net 24h\Trwała grafika\Trwała grafika\obj\Debug\Trwała_grafika.Resources.resources
 C:\PM\PM\VB Net nauka\VB-Net-nauka\vb net 24h\Trwała grafika\Trwała grafika\obj\Debug\Trwała grafika.vbproj.GenerateResource.Cache
-Z:\3.Research_Development\VB-Net-nauka\vb net 24h\Trwała grafika\Trwała grafika\bin\Debug\Trwała grafika.exe.config
-Z:\3.Research_Development\VB-Net-nauka\vb net 24h\Trwała grafika\Trwała grafika\obj\Debug\Trwała grafika.exe
-Z:\3.Research_Development\VB-Net-nauka\vb net 24h\Trwała grafika\Trwała grafika\obj\Debug\Trwała grafika.xml
-Z:\3.Research_Development\VB-Net-nauka\vb net 24h\Trwała grafika\Trwała grafika\obj\Debug\Trwała grafika.pdb
 Z:\3.Research_Development\VB-Net-nauka\vb net 24h\Trwała grafika\Trwała grafika\bin\Debug\Trwała grafika.exe
-Z:\3.Research_Development\VB-Net-nauka\vb net 24h\Trwała grafika\Trwała grafika\bin\Debug\Trwała grafika.pdb
-Z:\3.Research_Development\VB-Net-nauka\vb net 24h\Trwała grafika\Trwała grafika\bin\Debug\Trwała grafika.xml
+Z:\3.Research_Development\VB-Net-nauka\vb net 24h\Trwała grafika\Trwała grafika\bin\Debug\Trwała grafika.exe.config
 Z:\3.Research_Development\VB-Net-nauka\vb net 24h\Trwała grafika\Trwała grafika\obj\Debug\Trwała_grafika.FormularzGłówny.resources
 Z:\3.Research_Development\VB-Net-nauka\vb net 24h\Trwała grafika\Trwała grafika\obj\Debug\Trwała_grafika.Resources.resources
 Z:\3.Research_Development\VB-Net-nauka\vb net 24h\Trwała grafika\Trwała grafika\obj\Debug\Trwała grafika.vbproj.GenerateResource.Cache
+Z:\3.Research_Development\VB-Net-nauka\vb net 24h\Trwała grafika\Trwała grafika\obj\Debug\Trwała grafika.exe
+Z:\3.Research_Development\VB-Net-nauka\vb net 24h\Trwała grafika\Trwała grafika\obj\Debug\Trwała grafika.xml
+Z:\3.Research_Development\VB-Net-nauka\vb net 24h\Trwała grafika\Trwała grafika\obj\Debug\Trwała grafika.pdb
+Z:\3.Research_Development\VB-Net-nauka\vb net 24h\Trwała grafika\Trwała grafika\bin\Debug\Trwała grafika.pdb
+Z:\3.Research_Development\VB-Net-nauka\vb net 24h\Trwała grafika\Trwała grafika\bin\Debug\Trwała grafika.xml
