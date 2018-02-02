@@ -65,7 +65,7 @@ Public Class FormularzGłówny
         ' rain_layer_bmp.MakeTransparent()
 
         Dim alpha As Byte = 127
-        kolor = Color.FromArgb(alpha, 255, 0, 0)
+        kolor = Color.FromArgb(alpha, 255, 255, 255)
         For x = 0 To 30
             For y = 0 To 30
                 rain_layer_bmp.SetPixel(x, y, kolor)
@@ -79,9 +79,6 @@ Public Class FormularzGłówny
         Dim displayColorRed As Double
         Dim displayColorGreen As Double
         Dim displayColorBlue As Double
-        Dim red As UInteger
-        Dim green As UInteger
-        Dim blue As UInteger
 
         alpha = 127
 
@@ -90,19 +87,11 @@ Public Class FormularzGłówny
                 backColor = map_layer_bmp.GetPixel(x, y)
                 sourceColor = rain_layer_bmp.GetPixel(x, y)
 
-                displayColorRed = (20 * alpha / 255) + (20) * (255 - alpha) / 255
-                displayColorGreen = (sourceColor.G * alpha / 255) + (backColor.G) * (255 - alpha) / 255
-                displayColorBlue = (sourceColor.B * alpha / 255) + (backColor.B) * (255 - alpha) / 255
+                displayColorRed = (CInt(sourceColor.R) * alpha / 255) + (backColor.R) * (255 - alpha) / 255
+                displayColorGreen = (CInt(sourceColor.G) * alpha / 255) + (backColor.G) * (255 - alpha) / 255
+                displayColorBlue = (CInt(sourceColor.B) * alpha / 255) + (backColor.B) * (255 - alpha) / 255
 
-                'red = sourceColor.R
-                'green = sourceColor.G
-                'blue = sourceColor.B
-
-                'displayColorRed = CByte((red * alpha / 255) + (red) * (255 - alpha) / 255)
-                'displayColorGreen = CByte((green * alpha / 255) + (green) * (255 - alpha) / 255)
-                'displayColorBlue = CByte((blue * alpha / 255) + (blue) * (255 - alpha) / 255)
-
-                kolor = Color.FromArgb(127, CInt(displayColorRed), CInt(displayColorGreen), CInt(displayColorBlue))
+                kolor = Color.FromArgb(255, CInt(displayColorRed), CInt(displayColorGreen), CInt(displayColorBlue))
 
                 main_layer_bmp.SetPixel(x, y, kolor)
             Next
