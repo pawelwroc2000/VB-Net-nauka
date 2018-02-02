@@ -64,10 +64,10 @@ Public Class FormularzGłówny
         ' kolor = Color.FromArgb(255, 255, 0, 0)
         ' rain_layer_bmp.MakeTransparent()
 
-        Dim alpha As Byte = 127
+        Dim alpha As Byte = 255
         kolor = Color.FromArgb(alpha, 255, 255, 255)
-        For x = 0 To 30
-            For y = 0 To 30
+        For x = 0 To 99
+            For y = 0 To 99
                 rain_layer_bmp.SetPixel(x, y, kolor)
             Next
         Next
@@ -82,8 +82,9 @@ Public Class FormularzGłówny
 
         alpha = 127
 
-        For x = 0 To 49
-            For y = 0 To 49
+        For x = 0 To 99
+            For y = 0 To 99
+                alpha = CByte(x * 2.5)
                 backColor = map_layer_bmp.GetPixel(x, y)
                 sourceColor = rain_layer_bmp.GetPixel(x, y)
 
@@ -100,6 +101,10 @@ Public Class FormularzGłówny
 
         ' 4.display main layer in picture box
         main_PictureBox.Image = main_layer_bmp
+
+        main_layer_bmp.Save("layers.png", System.Drawing.Imaging.ImageFormat.Png)
+
+
 
         Me.Refresh()
 
